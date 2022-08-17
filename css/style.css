@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;700&family=Baloo+Bhaina+2:wght@700&family=Inconsolata:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* .body{
+    background: rgba(0, 0, 0, 0.7) url('../img/1.jpg');
+} */
+
+.logo{
+    width: 3%;
+    height: 3%;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding: 0px 35px;
+    margin: 10px 6px;
+}
+
+
+.nav{
+    display: flex;
+    position: sticky;
+    height: 500px;
+    
+}
+
+.navbar{
+    display: flex;
+    padding: 13px 0px;
+    width: 50%;
+    margin: 0px -90px;
+    justify-content: center;
+}
+.navbar li{
+    list-style: none;
+    padding:14px 29px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(231, 222, 222);
+}
+.navbar li a:hover{
+    color: rgb(155, 147, 147);
+}
+
+.right{
+    width: 50%;
+    text-align: right;
+}
+.search{
+    padding: 8px 15px;
+    font-size: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.7) url('../img/1.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+    position: relative;
+    height:181vh;
+    
+}
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* .firstHalf{
+    width: 80%;
+    display: flex;
+
+}  */
+.firstSection{
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 30px;
+}
+.seconHalf img{
+    width: 70%;
+    border-radius: 190px
+
+}
+.img2{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 0px 35px;
+    margin: 0px 6px;
+    
+
+}
+.img2 img{
+    width: 92%;
+    border-radius: 190px
+}
+.text-big{
+    font-size: 28px;
+    /* font-style: italic;*/
+} 
+.para{
+    width: 78%;
+}
+.btn{
+    font-size: 17px;
+    border-radius: 7px;
+    background: none;
+    color: white;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    /* display: block; */
+    margin: 10px 165px;
+    font-family: 'Inconsolata', monospace;
+}
+.img{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 0px 35px;
+    margin: 0px 6px;
+    
+
+}
+.left{
+    justify-content: center;
+    margin: auto;
+    padding: 0px 67px;
+}
+.mid{
+    flex-direction: row-reverse;
+}
+.img img{
+    border-radius: 47px;
+    border: 2px solid;
+}
+.form{
+    background-color: rgb(245 245 245);
+    height: 130vh
+}
+.head2{
+    
+    text-align: center;
+    margin: 25px 16px;
+    padding: 20px;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.form-input{
+    text-align: center;
+}
+.form input{
+    width: 40%;
+    margin: 10px 10px;
+    padding: 2px 4px;
+    border-radius: 6px
+
+}
+.form textarea{
+    padding: 6px 2px;
+    border-radius: 6px;
+    width: 41%;
+}
+.btn-form{
+    margin: -15px 403px
+}
+.btn-form button{
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 6px;
+
+
+}
+
+@media only screen and (max-width: 567px){
+
+    .container{
+        width: 401%;
+        height: 300vh;
+
+    }
+
+    .nav{
+        flex-direction: column;
+        
+    }
+    .logo{
+        width: 40px;
+        height: 35px
+    }
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        transition: all 1s ease-out;
+        margin: 74px auto;
+    }
+    .navbar li{
+        text-align: center;
+    }
+    .right{
+        margin: -74px 176px;
+    }
+    .btn{
+        font-size: 14px;
+    border-radius: 7px;
+    background: none;
+    color: white;
+    margin: 11px 10px;
+    padding: 4px 17px;
+    border: 2px solid;
+    cursor: pointer;
+    }
+    .box-main{
+        margin: 121px auto
+    }
+    .firstSection{
+       top: 286px;
+    }
+    .mid{
+        text-align: center;
+        justify-content: center;
+        padding: 10% 354px;
+        margin: 64px 115px;
+    }
+    .form{
+        width: 352%;
+    }
+    .burger{
+        height: 19px;
+        position: absolute;
+        right: 5%;
+        top: 23%;
+
+    }
+    .line{
+        width: 46px;
+        background-color: rgb(235, 222, 222);
+        height: 29%;
+        margin: 7px 4px;
+    }
+    .nav{
+        height: 70px;
+        background-color: #514242;
+        /* opacity: 0; */
+    }
+    .res-nav{
+        opacity: 0;
+        height: 1px;
+    }
+    .res-right{
+        opacity: 0;
+    }
+
+}
+

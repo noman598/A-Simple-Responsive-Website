@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>project 2</title>
+</head>
+<body>
+    <div class="container">
+    <nav class="nav res-n">
+        <ul class="navbar res-nav">
+            <!-- <div class="logo"><img src="img/2.png" alt="logo"></div> -->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Contact Us">Contact Us</a></li>
+        </ul>
+    
+    <div class="right res-right">
+        
+            <input class="search" type ="text" name = "search">
+            <button class="btn btn-sm">Search</button>  
+    </div>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    
+
+</nav>
+<section class="background firstSection">
+    <div class="box-main">
+        <div class="firstHalf">
+            <p class="text-big">The Future of Education is here Now</p>
+            <p class="para">“Its easy in the world to live after the worlds opinion its easy in solitude to live after our own
+                but great people keep with the sweet independence of solitude in the midst of a crowd</p>
+                <button class="btn">Subscribe</button>
+                <button class="btn">Follow</button>
+        </div>
+        
+            <div class="img2" ><img src="img/3.jpg" alt="Study Book"></div>
+        
+    </div>
+</section>
+</div>
+
+<section class="section">
+    <div class="left">
+        <p class="text-big">The Future of Education is here Now</p>
+        <p class="para">“Its easy in the world to live after the worlds opinion its easy in solitude to live after our own
+            but great people keep with the sweet independence of solitude in the midst of a crowd Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nesciunt.</p>
+    </div>
+    <div class="img" ><img src="img/3.jpg" alt="Study Book"></div>
+</section>
+<section class="section mid">
+    <div class="left">
+        <p class="text-big">The Future of Education is here Now</p>
+        <p class="para">“Its easy in the world to live after the worlds opinion its easy in solitude to live after our own
+            but great people keep with the sweet independence of solitude in the midst of a crowd Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nesciunt.</p>
+    </div>
+    <div class="img" ><img src="img/3.jpg" alt="Study Book"></div>
+</section>
+<section class="section">
+    <div class="left">
+        <p class="text-big">The Future of Education is here Now</p>
+        <p class="para">“Its easy in the world to live after the worlds opinion its easy in solitude to live after our own
+            but great people keep with the sweet independence of solitude in the midst of a crowd Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nesciunt.</p>
+    </div>
+    <div class="img" ><img src="img/3.jpg" alt="Study Book"></div>
+</section>
+
+<section class="form">
+    <h2 class="head2">Contact Us</h2>
+    <div class="form-input">
+    <input type="text" name="name" placeholder="Enter Your Name"><br>
+    <input type="text" name="phone" placeholder="Enter Your Phone" ><br>
+    <input type="email" name="email" placeholder="Enter your Email"><br>
+    <textarea name="area" id="concern" cols="30" rows="10" placeholder="Elaborate Your Concern"></textarea><br>
+</div><br>
+    <div class="btn-form"><button >Submit</button></div>
+
+</section>
+<script>
+    // src = "javascript/resp.js"
+    burger = document.querySelector('.burger');
+nav = document.querySelector('.nav');
+navbar = document.querySelector('.navbar');
+right = document.querySelector('.right');
+
+burger.addEventListener('click', ()=>{
+    navbar.classList.toggle('res-nav');
+    right.classList.toggle('res-right');
+    // nav.classList.toggle('res-n');
+})
+
+</script>
+</body>
+</html>
